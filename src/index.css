@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import '~antd/dist/antd.css';
+
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  height: 100%;
+  min-height: 280px;
+  max-height: 100%;
+}
+#components-layout-demo-top .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+.ant-layout-footer {
+  text-align: center;
+}
+.ant-layout-content {
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fade-in {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+#normal_login {
+  max-width: 98%;
+  width: 500px;
+  text-align: center;
+  padding: 20px 10px 0;
+  -webkit-box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+}
+#contrainer-login {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
